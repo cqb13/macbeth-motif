@@ -10,6 +10,9 @@ module.exports = {
       screens: {
         xs: "330px",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/hero-bg.jpg')",
+      }
     },
   },
   plugins: [require("@tailwindcss/forms"), require("@headlessui/tailwindcss")],
