@@ -1,24 +1,31 @@
 import Layout from "@components/layout";
 import { NextPage } from "next";
-import Link from "next/link";
 import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
     <Layout title="Macbeth Motif">
-      <div
-        className="bg-hero-pattern bg-cover bg-center flex mx-auto flex-col items-center justify-center min-h-screen"
-      >
-        <section className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20">
-          <h1 className="text-6xl font-bold">Macbeth Motif</h1>
+      <div className="bg-hero-pattern bg-cover bg-center flex mx-auto flex-col items-center justify-center min-h-screen">
+        <section className="flex flex-1 w-full flex-col items-center justify-center text-center gap-10">
+          <h1 className="text-7xl font-bold">Macbeth Motif</h1>
+          <a href="" className="animate-bounce flex flex-col items-center justify-center hover:tracking-wide hover:text-cyan-600 duration-150 color">
+            <p className="font-medium text-xl">
+              Learn More
+            </p>
+            <div className="90">
+              <Image
+                className="rotate-90"
+                src="/arrow.svg"
+                alt="arrow"
+                width={50}
+                height={50}
+              />
+            </div>
+          </a>
         </section>
+        <section />
         <section>
-
-        </section>
-        <section>
-          <article>
-            
-          </article>
+          <article />
         </section>
       </div>
     </Layout>

@@ -8,12 +8,7 @@ module.exports = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/Nutlope/roomGPT",
-        permanent: false,
-      },
-      {
-        source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/room-GPT",
+        destination: "https://github.com/cqb13/macbeth-motif",
         permanent: false,
       },
     ];
