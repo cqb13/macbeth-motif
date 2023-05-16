@@ -7,9 +7,9 @@ const Home: NextPage = () => {
   return (
     <Layout title="Macbeth Motif">
       <div className="flex mx-auto flex-col items-center justify-center min-h-screen">
-        <section className="w-screen h-screen flex flex-col justify-center text-center gap-10 bg-hero-pattern bg-cover bg-center">
+        <section className="w-screen h-screen flex flex-col justify-center items-center text-center gap-10 bg-hero-pattern bg-cover bg-center">
           <h1 className="text-7xl font-bold">Macbeth Motif</h1>
-          <a href="#slides" className="animate-bounce flex flex-col items-center justify-center hover:tracking-wide hover:text-cyan-600 duration-150 color">
+          <a href="#slides" className="animate-bounce flex flex-col items-center w-fit justify-center hover:tracking-wide hover:text-cyan-600 duration-150 color">
             <p className="font-medium text-xl">
               Learn More
             </p>

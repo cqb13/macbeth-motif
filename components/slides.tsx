@@ -2,7 +2,6 @@ import ImageSlides from "@data/ImageSlides";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
-//TODO instead of Image, set background
 const Slides = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [play, setPlay] = useState(true);
