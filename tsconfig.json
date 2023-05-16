@@ -21,6 +21,8 @@
       "@styles/*": ["styles/*"],
       "@pages/*": ["pages/*"],
       "@public/*": ["public/*"],
+      "@prop-types/*": ["prop-types/*"],
+      "@data/*": ["lib/data/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
