@@ -5,14 +5,16 @@ import Image from "next/image";
 //TODO instead of Image, set background
 const Slides = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [play, setPlay] = useState(true);
 
   useEffect(() => {
+    if (!play) return;
     const interval = setInterval(() => {
       setCurrentSlide(prevSlide => (prevSlide + 1) % ImageSlides.length);
     }, 10000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [play]);
 
   const goToNextSlide = () => {
     setCurrentSlide(prevSlide => (prevSlide + 1) % ImageSlides.length);
@@ -58,17 +60,37 @@ const Slides = () => {
           {location}
         </p>
       </div>
+      <div className="absolute bottom-4 right-4 text-white">
+        <button onClick={() => setPlay(!play)}>
+          <Image
+            src={play ? "/pause.svg" : "/play.svg"}
+            alt={play ? "pause" : "play"}
+            width={30}
+            height={30}
+          />
+        </button>
+      </div>
       <button
         className="absolute top-1/2 left-2 transform -translate-y-1/2 text-white font-bold text-2xl"
         onClick={goToPreviousSlide}
       >
-        &lt;
+        <Image
+          src="/left-chevron.svg"
+          alt="left"
+          width={50}
+          height={50}
+        />
       </button>
       <button
         className="absolute top-1/2 right-2 transform -translate-y-1/2 text-white font-bold text-2xl"
         onClick={goToNextSlide}
       >
-        &gt;
+        <Image
+          src="/right-chevron.svg"
+          alt="right"
+          width={50}
+          height={50}
+        />
       </button>
     </div>
   );
