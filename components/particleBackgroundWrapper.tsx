@@ -121,7 +121,7 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
 
   return (
     <div className="relative">
-      <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full z-0"></canvas>
+      <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full -z-10"></canvas>
       {children}
     </div>
   );

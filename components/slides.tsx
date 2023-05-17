@@ -56,7 +56,7 @@ const Slides = () => {
           {currentSlide + 1}/{ImageSlides.length}
         </h1>
       </div>
-      <div className="absolute w-1/5 rounded bottom-4 left-4 bg-white bg-opacity-50 p-4">
+      <div className="absolute w-1/5 rounded bottom-4 left-4 bg-white bg-opacity-20 p-4">
         <p className="text-lg">
           {quote}
         </p>

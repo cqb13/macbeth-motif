@@ -16,6 +16,9 @@ module.exports = {
       },
       height: {
         'slide-image-height': 'calc(100vh - 2rem)',
+      },
+      fontFamily: {
+        'times': ['Times New Roman', 'serif'],
       }
     },
   },
