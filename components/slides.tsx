@@ -6,14 +6,17 @@ const Slides = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [play, setPlay] = useState(true);
 
-  useEffect(() => {
-    if (!play) return;
-    const interval = setInterval(() => {
-      setCurrentSlide(prevSlide => (prevSlide + 1) % ImageSlides.length);
-    }, 10000);
+  useEffect(
+    () => {
+      if (!play) return;
+      const interval = setInterval(() => {
+        setCurrentSlide(prevSlide => (prevSlide + 1) % ImageSlides.length);
+      }, 10000);
 
-    return () => clearInterval(interval);
-  }, [play]);
+      return () => clearInterval(interval);
+    },
+    [play]
+  );
 
   const goToNextSlide = () => {
     setCurrentSlide(prevSlide => (prevSlide + 1) % ImageSlides.length);
@@ -33,14 +36,16 @@ const Slides = () => {
 
   return (
     <div className="relative h-screen">
-<Image
-    src={image}
-    alt={name}
-    width={1920}
-    height={1080}
-    quality={100}
-    className="object-contain h-screen w-screen"
-/>
+      <div className="py-4">
+      <Image
+        src={image}
+        alt={name}
+        width={1920}
+        height={1080}
+        quality={100}
+        className="object-contain h-slide-image-height w-fit rounded-2xl mx-auto"
+      />
+      </div>
       <div className="absolute top-4 left-4 text-white">
         <h1 className="text-4xl font-bold">
           {name}
@@ -73,23 +78,13 @@ const Slides = () => {
         className="absolute top-1/2 left-2 transform -translate-y-1/2 text-white font-bold text-2xl"
         onClick={goToPreviousSlide}
       >
-        <Image
-          src="/left-chevron.svg"
-          alt="left"
-          width={50}
-          height={50}
-        />
+        <Image src="/left-chevron.svg" alt="left" width={50} height={50} />
       </button>
       <button
         className="absolute top-1/2 right-2 transform -translate-y-1/2 text-white font-bold text-2xl"
         onClick={goToNextSlide}
       >
-        <Image
-          src="/right-chevron.svg"
-          alt="right"
-          width={50}
-          height={50}
-        />
+        <Image src="/right-chevron.svg" alt="right" width={50} height={50} />
       </button>
     </div>
   );
