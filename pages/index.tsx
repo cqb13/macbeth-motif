@@ -1,4 +1,5 @@
 import ParticleBackgroundWrapper from "@components/particleBackgroundWrapper";
+import EssayContainer from "@components/essayContainer";
 import Layout from "@components/layout";
 import Slides from "@components/slides";
 import Essay from "@components/essay";
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
           </section>
           <div className="py-36" />
           <section>
-            <Essay />
+            <EssayContainer essay={<Essay />} />
           </section>
         </ParticleBackgroundWrapper>
       </div>

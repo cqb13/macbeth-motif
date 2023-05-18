@@ -13,18 +13,16 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
 
     let particles: Particle[] = [];
 
-    // Create particles
     const createParticles = () => {
       particles = [];
 
-      const numParticles = 50; // Adjust the number of particles here
+      const numParticles = 50;
 
       for (let i = 0; i < numParticles; i++) {
         particles.push(new Particle(canvas.width, canvas.height));
       }
     };
 
-    // Particle class
     class Particle {
       x: number;
       y: number;
@@ -36,10 +34,10 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
       constructor(width: number, height: number) {
         this.x = Math.random() * width;
         this.y = Math.random() * height;
-        this.radius = 3; // Adjust the particle size
-        this.color = '#0891b2'; // Adjust the particle color
-        this.speedX = Math.random() - 0.5; // Adjust the particle horizontal speed
-        this.speedY = Math.random() - 0.5; // Adjust the particle vertical speed
+        this.radius = 3; 
+        this.color = '#0891b2'; 
+        this.speedX = Math.random() - 0.5; 
+        this.speedY = Math.random() - 0.5; 
       }
 
       draw() {
@@ -67,7 +65,6 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
       }
     }
 
-    // Draw particles
     const drawParticles = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -87,7 +84,7 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = '#0891b2'; // Adjust the link color
+            ctx.strokeStyle = '#0891b2';
             ctx.stroke();
           }
         }
@@ -96,7 +93,6 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
       requestAnimationFrame(drawParticles);
     };
 
-    // Initialize canvas and particles
     const initialize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -104,7 +100,6 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
       drawParticles();
     };
 
-    // Event listener for window resize
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
