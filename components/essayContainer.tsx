@@ -1,4 +1,4 @@
-const EssayContainer = ({essay}: {essay: React.ReactNode}) => {
+const EssayContainer = ({ essay }: { essay: React.ReactNode }) => {
   return (
     <article className="w-11/12 mx-auto font-times text-lg pb-4">
       <div className="bg-white bg-opacity-20 w-fit p-4 rounded tracking-wider">
