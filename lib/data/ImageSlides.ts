@@ -7,8 +7,8 @@ const ImageSlides: ImageSlide[] = [
   {
     name: "Tempest of the Mind",
     quote:
-      '"I will drain him dry as hay: Sleep shall neither night nor day Hang upon his pent-house lid; He shall live a man forbid: Weary sev\'nights nine times nine Shall he dwindle, peak and pine: Though his bark cannot be lost, Yet it shall be tempest-tossed."',
-    location: "1.3 18-25",
+      '"Though his bark cannot be lost, Yet it shall be tempest-tossed."',
+    location: "1.3 24-25",
     image: "/TempestOfTheMind.jpg",
     inText: ""
   },
@@ -24,15 +24,15 @@ const ImageSlides: ImageSlide[] = [
     name: "No Sleep",
     quote:
       '“Still it cried "Sleep no more!" to all the house; "Glamis hath murdered sleep, and therefore Cawdor shall sleep no more, Macbeth shall sleep no more.”',
-    location: "2.2, 44-47",
+    location: "2.2, 44-46",
     image: "/NoSleep.jpg",
     inText: ""
   },
   {
     name: "Torment of the Mind",
     quote:
-      "“Ere we will eat our meal in fear and sleep In the affliction of these terrible dreams That shake us nightly: better be with the dead, Whom we, to gain our peace, have sent to peace, Than on the torture of the mind to lie In restless ecstasy.”",
-    location: "3.2, 18-23",
+      "“Ere we will eat our meal in fear and sleep In the affliction of these terrible dreams.”",
+    location: "3.2, 18-19",
     image: "/TormentOfTheMind.jpg",
     inText: ""
   },
@@ -47,8 +47,8 @@ const ImageSlides: ImageSlide[] = [
   {
     name: "Prophecy of the Witches",
     quote:
-      "“what need I fear of thee? But yet I'll make assurance double sure, And take a bond of fate: thou shalt not live; That I may tell pale-hearted fear it lies, And sleep in spite of thunder.”",
-    location: "4.1, 104-107",
+      "“Sleep in spite of thunder.”",
+    location: "4.1, 108",
     image: "/ProphecyOfTheWitches.jpg",
     inText: ""
   }
