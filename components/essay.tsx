@@ -14,10 +14,10 @@ const Essay = () => {
         Even before Macbeth's first murder, the manifestation of guilt in the
         mind is made clear by the First Witch, while she tells her story of
         tormenting a sailor, {" "}
-        <div className="indent-0 inline-block" id="q1">
+        <div className="indent-0 inline-block duration-150 rounded-md" id="q1">
           “Though his bark cannot be lost, / Yet it shall be tempest-tossed.”
           (1.3.24-25).
-        </div> {" "}
+        </div>{" "}
         The reference to the individual's "bark" (referring to their external
         appearance) being tempest-tossed reflects the internal storm of guilt.
         Despite the appearance of stability, the individual's mind is in

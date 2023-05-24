@@ -32,6 +32,16 @@ const Slides = () => {
     });
   };
 
+  const highlightQuote = (id: string) => {
+    const quote = document.getElementById(id);
+    if (quote) {
+      quote.classList.add("bg-cyan-600");
+      setTimeout(() => {
+        quote.classList.remove("bg-cyan-600");
+      }, 5000);
+    }
+  };
+
   const { name, quote, location, image, inText } = ImageSlides[currentSlide];
 
   return (
@@ -67,6 +77,7 @@ const Slides = () => {
           {inText
             ? <a
                 href={`#${inText}`}
+                onClick={() => highlightQuote(inText)}
                 className="hover:text-cyan-600 hover:tracking-wide duration-150"
               >
                 View
