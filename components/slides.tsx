@@ -32,19 +32,19 @@ const Slides = () => {
     });
   };
 
-  const { name, quote, location, image } = ImageSlides[currentSlide];
+  const { name, quote, location, image, inText } = ImageSlides[currentSlide];
 
   return (
     <div className="relative h-screen">
       <div className="py-4">
-      <Image
-        src={image}
-        alt={name}
-        width={1920}
-        height={1080}
-        quality={100}
-        className="object-contain h-slide-image-height w-fit rounded-2xl mx-auto"
-      />
+        <Image
+          src={image}
+          alt={name}
+          width={1920}
+          height={1080}
+          quality={100}
+          className="object-contain h-slide-image-height w-fit rounded-2xl mx-auto"
+        />
       </div>
       <div className="absolute top-4 left-4 text-white">
         <h1 className="text-4xl font-bold">
@@ -60,9 +60,19 @@ const Slides = () => {
         <p className="text-lg">
           {quote}
         </p>
-        <p className="text-sm">
-          {location}
-        </p>
+        <div className="flex flex-row items-center gap-2">
+          <p className="text-sm">
+            {location}
+          </p>
+          {inText
+            ? <a
+                href={`#${inText}`}
+                className="hover:text-cyan-600 hover:tracking-wide duration-150"
+              >
+                View
+              </a>
+            : null}
+        </div>
       </div>
       <div className="absolute bottom-4 right-4 text-white">
         <button onClick={() => setPlay(!play)}>

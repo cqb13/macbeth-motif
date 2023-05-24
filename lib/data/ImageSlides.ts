@@ -1,8 +1,5 @@
 import ImageSlide from "../types/ImageSlide";
 
-//TODO: if the quote is talked about in article, toText should be the id of the location of that quote
-// A button will be made that will take you to that location, and the quote will be highlighted
-
 const ImageSlides: ImageSlide[] = [
   {
     name: "Tempest of the Mind",
@@ -10,7 +7,7 @@ const ImageSlides: ImageSlide[] = [
       '"Though his bark cannot be lost, Yet it shall be tempest-tossed."',
     location: "1.3 24-25",
     image: "/TempestOfTheMind.jpg",
-    inText: ""
+    inText: "q1"
   },
   {
     name: "Cursed Thoughts",

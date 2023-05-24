@@ -14,7 +14,7 @@ const Home: NextPage = () => {
           <h1 className="text-7xl font-bold">Macbeth Motif</h1>
           <a
             href="#slides"
-            className="animate-bounce flex flex-col items-center w-fit justify-center hover:tracking-wide hover:text-cyan-600 duration-150 color"
+            className="animate-bounce flex flex-col items-center w-fit justify-center hover:tracking-wide hover:text-cyan-600 duration-150"
           >
             <p className="font-medium text-xl">Learn More</p>
             <div className="90">
