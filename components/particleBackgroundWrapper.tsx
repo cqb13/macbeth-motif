@@ -16,7 +16,7 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
     const createParticles = () => {
       particles = [];
 
-      const numParticles = 50;
+      const numParticles =70;
 
       for (let i = 0; i < numParticles; i++) {
         particles.push(new Particle(canvas.width, canvas.height));
@@ -34,10 +34,10 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
       constructor(width: number, height: number) {
         this.x = Math.random() * width;
         this.y = Math.random() * height;
-        this.radius = 3; 
+        this.radius = 1; 
         this.color = '#0891b2'; 
-        this.speedX = Math.random() - 0.5; 
-        this.speedY = Math.random() - 0.5; 
+        this.speedX = Math.random() - 0.2; 
+        this.speedY = Math.random() - 0.3; 
       }
 
       draw() {
@@ -80,10 +80,11 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
             (particles[i].x - particles[j].x) ** 2 + (particles[i].y - particles[j].y) ** 2
           );
 
-          if (distance < 150) {
+          if (distance < 100) {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.lineWidth = 0.5;
             ctx.strokeStyle = '#0891b2';
             ctx.stroke();
           }
@@ -116,7 +117,7 @@ const ParticleBackgroundWrapper = ({ children }: { children: React.ReactNode }) 
 
   return (
     <div className="relative">
-      <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full -z-10"></canvas>
+      <canvas ref={canvasRef} className="absolute top-0 left-0 w-screen h-full -z-10"></canvas>
       {children}
     </div>
   );

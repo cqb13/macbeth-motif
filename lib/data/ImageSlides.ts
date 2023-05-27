@@ -2,20 +2,12 @@ import ImageSlide from "../types/ImageSlide";
 
 const ImageSlides: ImageSlide[] = [
   {
-    name: "Tempest of the Mind",
+    name: "Conflict Within",
     quote:
-      '"Though his bark cannot be lost, Yet it shall be tempest-tossed."',
-    location: "1.3 24-25",
-    image: "/TempestOfTheMind.jpg",
+      '“Nature seems dead, and wicked dreams abuse The curtain\'d sleep;”',
+    location: "2.1 50-51",
+    image: "/ConflictWithin.jpg",
     inText: "q1"
-  },
-  {
-    name: "Cursed Thoughts",
-    quote:
-      "“There's husbandry in heaven; Their candles are all out. Take thee that too. A heavy summons lies like lead upon me, And yet I would not sleep: merciful powers, Restrain in me the cursed thoughts that nature Gives way to in repose!”",
-    location: "2.1 5-10",
-    image: "/CursedThoughts.jpg",
-    inText: ""
   },
   {
     name: "No Sleep",
@@ -26,7 +18,7 @@ const ImageSlides: ImageSlide[] = [
     inText: "q2"
   },
   {
-    name: "Torment of the Mind",
+    name: "Torment of Mind",
     quote:
       "“Ere we will eat our meal in fear and sleep In the affliction of these terrible dreams.”",
     location: "3.2, 18-19",

@@ -2,104 +2,122 @@ const Essay = () => {
   return (
     <article className="text-white">
       <span className="block indent-5 leading-loose">
-        Even before Macbeth's first murder, the manifestation of guilt in the
-        mind is made clear by the First Witch, while she tells her story of
-        tormenting a sailor, {" "}
-        <span className="duration-150 rounded-md" id="q1">
-          “Though his bark cannot be lost, / Yet it shall be tempest-tossed.”
-          (1.3.24-25).
-        </span>{" "}
-        The reference to the individual's "bark" (referring to their external
-        appearance) being tempest-tossed reflects the internal storm of guilt.
-        Despite the appearance of stability, the individual's mind is in
-        constant turmoil due to their guilt, symbolized by the metaphor of being
-        tossed by a tempest. This is shown in my collage “Tempest of the Mind”,
-        the person represents the physical body, and appears to be perfectly
-        fine, but above them is a storm forming, and their ship being torn
-        apart, this represents a person's true state of being. Even though the
-        person looks fine, they are about to be in a storm, and without a ship.
-        This is similar to what Macbeth will go through, as while he will look
-        fine physically, he will have a very hard time sleeping, and will slowly
-        go insane from seeing ghosts of the people he has killed.
+        In Shakespeare's play Macbeth, the theme of guilt is prominently
+        portrayed through the lens of sleep, revealing the profound effects it
+        has on the human mind.
       </span>
       <span className="block indent-5 leading-loose">
-        Guilt's effect on Macbeth's mind becomes clear after He
-        kills King Duncan, he immediately begins to torment himself over the
-        murder. While on his way to meet up with Lady Macbeth, he begins to hear
-        a voice, and he recounts what it says to Lady Macbeth.{" "}
+        Shakespear shows the effect that guilt can have on the human mind, even
+        before Macbeth's first murder. On his way to kill King Duncan, Macbeth
+        witnesses a floating dagger in the air and begins to address it,
+        stating, {" "}
+        <span className="duration-150 rounded-md" id="q1">
+          "Nature seems dead, and wicked dreams abuse / The curtain'd sleep;
+          witchcraft celebrates / Pale Hecate's offerings, and wither'd murder"
+          (2.1.50-51).
+        </span>{" "}
+        In this moment, Macbeth engages in an internal battle with himself
+        regarding the decision to kill Duncan. Consumed by guilt, he grapples
+        with the idea of murdering a man who has done so much for him. The
+        appearance of the dagger provides him with an opportunity to reconsider,
+        to resist taking the dagger and abandoning his plan to kill Duncan.
+        However, Macbeth ultimately chooses to take the dagger and proceed with
+        the murder. My image, "Conflict Within," portrays the struggle within
+        Macbeth. The image depicts a dark hallway, with one half bathed in red
+        light representing the dark path Macbeth can choose to take, and the
+        other half tinted white symbolizing the path of goodness he could remain
+        on. At the border between the two halves stand two figures: Macbeth. One
+        figure is more prominent, shaded in red and holding a dagger,
+        representing the evil path he is inclined to follow. The other figure is
+        black, lacking detail and fading away, representing the past Macbeth.
+        This fading figure signifies the potential loss of his virtuous self as
+        he descends further into darkness.
+      </span>
+      <span className="block indent-5 leading-loose">
+        The impact of guilt on Macbeth's mind becomes evident after he murders
+        King Duncan. Immediately after the deed, he torments himself over the
+        act. While on his way to meet Lady Macbeth, he begins to hear a voice
+        and recounts it to her,{" "}
         <span className="duration-150 rounded-md" id="q2">
           “‘Sleep no more!’ to all the house; ‘Glamis hath murdered sleep, and
           therefore Cawdor shall sleep no more, Macbeth shall sleep no more.’”
           (2.2.44-46).
         </span>{" "}
-        This voice is not real, only Macbeth can hear it, the voice crying
-        “Sleep no more”, is a manifestation of the guilt that Macbeth is
-        feeling, he is so guilty that he is punishing himself for what he has
-        done to the king, he is hallucinating a voice telling him that he will
-        no longer be able to sleep for his actions. This moment is depicted in
-        my image “No Sleep”. In the center of the frame is Macbeth, and all
-        around him, is more of himself, at night, wide awake in various forms of
-        torment from his lack of sleep. Macbeth confirms the effects that guilt
-        is having on his mental state, in a conversation with Lady Macbeth,{" "}
+        This voice is a manifestation of Macbeth's guilt, as only he can hear
+        it. The voice crying "Sleep no more" punishes him for his actions,
+        indicating his guilt and suggesting he will be plagued by sleeplessness
+        as a result of the murder. I depicted this in my image, "No Sleep." In
+        the center, Macbeth is surrounded by various forms of himself, wide
+        awake and tormented throughout the night. The image symbolizes the
+        consequences of Macbeth's guilt on his mental state. Macbeth reinforces
+        the effects guilt has on him in a conversation with Lady Macbeth, {" "}
         <span className="duration-150 rounded-md" id="q3">
           “Ere we will eat our meal in fear and sleep / In the affliction of
           these terrible dreams” (3.2.18-19).
         </span>{" "}
-        Macbeth is expressing fear and tormenting his feelings, he and Lady
-        Macbeth have just killed Duncan, and Macbeth has just given the order to
-        kill Banquo, his best friend. He is now always afraid that people may
-        learn of the murder he committed, and his dreams are filled with the
-        horrors of his murders. The fear and torment that comes with guilt is
-        made clear in my image “Torment of the Mind”, it demonstrates this by
-        showing Macbeth and Lady Macbeth in the top right, with scared somber
-        expressing, and around them are symbols for what they have done,
-        Banquo's skull, and Lady Macbeth standing over the dead Duncan in his
-        bed, while she is hiding the murder, those parts of the college are
-        filled with a red tone, and surrounded by fire to show the evil in the
-        moment, and Macbeth and Lady Macbeth are in gray, to show the torment
-        and fear that they are experiencing.
+        Macbeth expresses the fear and torment he experiences. Having killed
+        Duncan and given the order to kill his best friend, Banquo, Macbeth
+        lives in constant fear of exposure, resulting in terrifying dreams
+        haunted by his crimes. The fear and torment that accompany guilt are
+        depicted in my image "Torment of Mind." It portrays Macbeth and Lady
+        Macbeth in the top right corner, their expressions filled with fear and
+        sorrow. Surrounding them are symbols of their deeds: Banquo's skull and
+        Lady Macbeth standing over the dead Duncan in his bed. These elements,
+        highlighted with a red tone and surrounded by fire, represent the evil
+        of the moment. Macbeth and Lady Macbeth are depicted in gray, reflecting
+        the torment and fear they experience. Overall, Macbeth's guilt takes a
+        toll on his mental state, leading to hallucinations, sleeplessness, and
+        torment.
       </span>
       <span className="block indent-5 leading-loose">
-        In the end, Guilt forces Macbeth to go into denial, after the feast,
-        Macbeth opens up about his troubles to Lady Macbeth. He has just seen
-        Banquo’s ghost, and sends everyone away after he has a bit of breakdown
-        during the feast, he is then confronted by Lady Macbeth about his
-        actions that night, to whom he says, {" "}
+        In the end, Guilt forces Macbeth to go into denial. After the feast,
+        Macbeth opens up about his troubles to Lady Macbeth, having just seen
+        Banquo's ghost. He sends everyone away, experiencing a breakdown during
+        the feast. Lady Macbeth confronts him about his actions that night, to
+        which he responds, {" "}
         <span className="duration-150 rounded-md" id="q4">
           “Come, we'll to sleep. My strange and self-abuse / Is the initiate
           fear that wants hard use: / We are yet but young in deed”
           (3.4.144-145).
         </span>{" "}
-        Macbeth's guilt is causing him to go into denial from his terrible
-        actions. He knows it was wrong murdering Banquo, and now he is
-        subconsciously punishing himself for it, by having Banquo's ghost
-        torment him. But despite all of these visions, he does not accept that
-        his actions were wrong, instead he says that he should sleep, showing
-        that he wants to hide from his guilt and regret, and hoping that it will
-        go away in time. I show this in my image “Strange Visions”, by having
-        Macbeth, in the center of the image, holding his head in, and facing the
-        floor, with an expression of torment on his face, while he is surrounded
-        by ghosts. My image shows how Macbeth is trying to hide from his
-        actions. Once again, Macbeth's guilt forces him to go into denial of the
-        reality of his situation, when he is being told prophecies from the
-        apparitions that the witches summon, he is told earlier in the play,
-        that Banquo’s children will be King after him, but he is told by the
-        apparition that he can't be killed by anyone born of a women. Macbeth
-        chooses to ignore the obvious contradiction between these two
-        prophecies, and says {" "}
+        Macbeth's guilt causes him to deny his terrible actions. Although he
+        knows that murdering Banquo was wrong, he subconsciously punishes
+        himself by being tormented by Banquo's ghost. Despite these haunting
+        visions, he refuses to accept the wrongdoing and instead seeks solace in
+        sleep, hoping that his guilt and regret will eventually fade away. To
+        depict Macbeth's attempt to hide from his actions, my image titled
+        "Strange Visions" portrays Macbeth at the center, holding his head and
+        facing the floor with a tormented expression. Surrounding him are
+        ghosts, representing his inner turmoil. This image serves as a visual
+        representation of Macbeth's desire to conceal his guilt. Once again,
+        Macbeth's guilt compels him to deny the reality of his situation. When
+        the witches summon apparitions to deliver prophecies, Macbeth is told
+        earlier in the play that Banquo's children will be kings, yet he is also
+        told that he cannot be killed by anyone born of a woman. Despite the
+        obvious contradiction between these two prophecies, Macbeth chooses to
+        disregard it, declaring,{" "}
         <span className="indent-0 duration-150 rounded-md" id="q5">
           “Sleep in spite of thunder” (4.1.108).
         </span>{" "}
-        Macbeth is saying that despite everything that is predicted to happen to
-        him, and everything that he has already done, he will ignore it all and
-        “sleep”. I show this in my college, by showing Macbeth in the center of
-        the frame sleeping. Below Macbeth is Banquo, from the movie dead on the
-        train, and to the left of that is Banquo dead from the play. Above
-        Macbeth is Duncan, killed in his sleep, to the left of Duncan, is
-        Macduff, who is not dead, but who Macbeth wants to kill. The entire
-        image is tinted red, to show the evil of Macbeth's actions, and Macbeth
-        sleeping represents him trying to ignore everything evil that he has
-        done.
+        By using this phrase, Macbeth indicates his determination to ignore the
+        consequences of his actions and continue living in denial. In the image
+        I have created, Macbeth lies at the center, sleeping. Below him is
+        Banquo, depicted as dead on the train, while Banquo's deceased form from
+        the play is positioned to the left. Above Macbeth, Duncan, killed in his
+        sleep, is shown, and to the left of Duncan is Macduff, whom Macbeth
+        intends to kill. The entire image is tinged with red, symbolizing the
+        evil nature of Macbeth's actions. Macbeth sleeping represents his
+        attempt to avoid confronting the darkness he has unleashed.
+      </span>
+      <span className="block indent-5 leading-loose">
+        Shakespeare utilizes sleep to illustrate the impact of guilt on the
+        human mind. Through Macbeth's journey, we witness the gradual unraveling
+        of his sanity as he grapples with the consequences of his heinous
+        actions. The portrayal of hallucinations, sleeplessness, and his
+        desperate attempt to find refuge in sleep serves as a reminder of the
+        destructive power of guilt, ultimately leaving us with a profound
+        understanding of the torment that guilt can inflict upon the human
+        psyche.
       </span>
     </article>
   );
