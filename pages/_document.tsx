@@ -2,7 +2,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
-    let description = "Learn how the effect of guilt on the human mind is depicted through sleep, in shakespeare's play Macbeth";
+    let description = "Learn how the effect of guilt on the human mind is depicted through sleep, in Shakespeare's play Macbeth";
     let sitename = "Macbeth's Torment";
     let title = "Macbeth's Torment";
 
