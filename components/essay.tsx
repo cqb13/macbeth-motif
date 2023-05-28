@@ -3,7 +3,7 @@ const Essay = () => {
     <article className="text-white">
       <span className="block indent-5 leading-loose">
         In Shakespeare's play Macbeth, the theme of guilt is prominently
-        portrayed through the lens of sleep, revealing the profound effects it
+        portrayed through the motif sleep, revealing the profound effects it
         has on the human mind.
       </span>
       <span className="block indent-5 leading-loose">
